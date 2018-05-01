@@ -15,7 +15,9 @@ Vi è una funzionalità particolare e molto importante chiamata **costruttore**.
 Un esempio:
 ```java
 public class Automobile {
+
   /* Attributi (Modello dei Dati) */
+  
   private String marca;
   private String modello;
   private int nPosti;
@@ -25,6 +27,8 @@ public class Automobile {
   private int velocitaMax;
   
   /* Metodi */
+  
+  // Costruttore
   public Automobile(String marca, String modello, int nPosti) {
     this.marca = marca;
     this.modello = modello;
@@ -34,3 +38,10 @@ public class Automobile {
   }
 }
 ```
+
+### Incapsulamento (Information Hiding)
+  #### Visibilità
+  #### Getter & Setter
+
+### Nomenclatura
+  #### CamelCase
